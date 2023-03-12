@@ -2,8 +2,8 @@ public class T1 {
     public static void main(String[] args) {
         // testing
         String[] fruits = {"lime","Apple", "Mango", "Banana", "Orange", "Peach","Watermelon"};
-        String[] custom = {"Hoal", "fi","S","thasn","kkkkkkkk"};
-        System.out.println(findSmallest(custom));
+        String[] custom = {"Hoal","kkkkkkkk", "fi","S","thasn"};
+        System.out.println(findLongest(custom));
     }
     // method a
     public static String findSmallest(String[] array){

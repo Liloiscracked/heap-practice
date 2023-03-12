@@ -1,7 +1,8 @@
 public class T3 {
     public static void main(String[] args) {
-        System.out.println(putCommas(100000));
-        System.out.println(putCommas(987031090));
+        //testing
+        System.out.println(putCommas(10000000));
+        System.out.println(putCommas(907931000));
     }
     public static String putCommas(int x){
         if(x/1000 == 0){
